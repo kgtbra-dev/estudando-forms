@@ -1,13 +1,51 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head> 
-    <meta charset="UFT-8">
+  <head>
+    <meta charset="UFT-8" />
     <title>Estudando forms</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
-        
+      <h1>Aqui irei realizar meus testes acadêmicos...</h1>
+      <p>
+        se alguem ver esse site, perdão, deve ter erros horriveis, mas eu to
+        aprendendo
+      </p>
     </header>
+    <main>
+      <section id="estrutura">
+        <h2>Faça seu cadastro</h2>
+        <form action="#" method="get">
+
+          <article>
+            <label for="nome">Seu Nome :</label>
+            <input id="nome" name="nome" type="text" />
+          </article>
+
+          <article>
+            <label for="email">Seu E-mail :</label>
+            <input id="email" name="email" type="email" />
+          </article>
+
+          <article>
+            <label for="idade">Sua Idade :</label>
+            <input id="idade" name="idade" type="number" />
+          </article>
+
+          <article>
+            <label for="genero">Seu gênero :</label>
+            <select id="genero" name="genero">
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Fluido</option>
+                <option>Outro</option>
+                <option>Prefiro não informar</option>
+            </select>
+          </article>
+
+        </form>
+      </section>
+    </main>
   </body>
 </html>
